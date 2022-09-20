@@ -22,7 +22,7 @@ class Login extends React.Component{
     submitHandler = e =>{
         e.preventDefault()
         console.log(this.state)
-        axios.post('http://localhost:3000/api/login', this.state)
+        axios.post('http://192.168.137.1:3000/api/login', this.state)
         .then(response =>{
             console.log(response)
         })

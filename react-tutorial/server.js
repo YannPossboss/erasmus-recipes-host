@@ -14,6 +14,7 @@ const bcrypt = require("bcryptjs");
 //JSONWEBTOKEN
 const jwt = require("jsonwebtoken");
 const cors = require("cors");
+app.use(cors()); 
 
 //connect to database
 const db = new sqlite3.Database("database/mock.db", sqlite3.OPEN_READWRITE, (err) =>{
@@ -27,7 +28,7 @@ const db = new sqlite3.Database("database/mock.db", sqlite3.OPEN_READWRITE, (err
 app.use(express.static(path.join(__dirname, "build")));
 
 //some middleware
-app.use(cors());
+
 app.use(express.urlencoded({ extended: false}))
 app.use(express.json());
 app.use(bodyParser.json());

@@ -5,7 +5,13 @@ class RecipeTempl extends React.Component {
         return(
             <div>
                 <h1>Huren</h1>
+
+                            <div class="footer">
+                                <p>&copy; 2019 | 2022 GreenMedia | Erasmus+ FinalBuild </p>
+                            </div>
+
             </div>
+            
         );
     }
 }

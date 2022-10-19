@@ -63,7 +63,7 @@ class Login extends React.Component{
 
         <div class="w3-hide-small">
 
-            <h1>[WebseiteName] <br/>Login</h1>
+            <h1>Login</h1>
         </div>
 
         

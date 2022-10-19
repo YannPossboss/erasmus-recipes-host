@@ -6,6 +6,7 @@ import Country from './pages/Country';
 import Landing from './pages/Landing';
 import ProfileEdit from './pages/ProfileEdit';
 import AdminPost from './pages/AdminPost';
+import RecipeTempl from './pages/RecipeTempl';
 
 import {BrowserRouter as Router, Route, Routes} from "react-router-dom";
 
@@ -25,6 +26,7 @@ function App() {
           <Route path = "/login" element={<Login/>}/>
           <Route path = "/editp" element={<ProfileEdit/>}/>
           <Route path = "/create" element={<AdminPost/>}/>
+          <Route path = "/recipe" element={<RecipeTempl/>}/>
         </Routes>
       </Router>
     </div>

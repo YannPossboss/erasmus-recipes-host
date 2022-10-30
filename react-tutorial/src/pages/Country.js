@@ -3,12 +3,16 @@ import React from "react";
 import flag1 from "./flags/flag_s.png"
 import flag2 from "./flags/flag_p.jpg"
 import flag3 from "./flags/flag_d.jpg"
-import flag4 from "./flags/flag_f.jpg"
-import flag5 from "./flags/flag_g.png"
-import flag6 from "./flags/flag_k.png"
+import flag4 from "./flags/flag_r.png"
+import flag5 from "./flags/flag_t.png"
+import flag6 from "./flags/flag_eu.png"
 
 import flags1 from "./flags/flag_s_s.png"
-import flags2 from "./flags/flag_smal.png"
+import flags2 from "./flags/flag_ds.jpg"
+import flags3 from "./flags/flag_ps.jpg"
+import flags4 from "./flags/flag_rs.jpg"
+import flags5 from "./flags/flag_ts.jpg"
+import flags6 from "./flags/flag_eus.jpg"
 
 
 class Country extends React.Component {
@@ -58,13 +62,13 @@ class Country extends React.Component {
                         <br/>
                         <li><a href="/"><img src={flags2} alt=""/></a></li>
                         <br/>
-                        <li><a href="/"><img src={flags2} alt=""/></a></li>
+                        <li><a href="/"><img src={flags3} alt=""/></a></li>
                         <br/>
-                        <li><a href="/"><img src={flags2} alt=""/></a></li>
+                        <li><a href="/"><img src={flags6} alt=""/></a></li>
                         <br/>
-                        <li><a href="/"><img src={flags2} alt=""/></a></li>
+                        <li><a href="/"><img src={flags4} alt=""/></a></li>
                         <br/>
-                        <li><a href="/"><img src={flags2} alt=""/></a></li>
+                        <li><a href="/"><img src={flags5} alt=""/></a></li>
                         <br/>
                         <br/>
                         <br/>

@@ -7,6 +7,8 @@ import Landing from './pages/Landing';
 import ProfileEdit from './pages/ProfileEdit';
 import AdminPost from './pages/AdminPost';
 import RecipeTempl from './pages/RecipeTempl';
+import RegisterErr from './pages/RegisterErr';
+import LoginErr from './pages/LoginErr'; 
 
 import {BrowserRouter as Router, Route, Routes} from "react-router-dom";
 
@@ -24,9 +26,11 @@ function App() {
           <Route path = "/frgtpass" element={<FrgtPass/>}/>
           <Route path = "/country" element={<Country/>}/>
           <Route path = "/login" element={<Login/>}/>
+          <Route path = "loginerr" element={<LoginErr/>}/>
           <Route path = "/editp" element={<ProfileEdit/>}/>
           <Route path = "/create" element={<AdminPost/>}/>
           <Route path = "/recipe" element={<RecipeTempl/>}/>
+          <Route path = "/regierr" element={<RegisterErr/>}/>
         </Routes>
       </Router>
     </div>

@@ -939,3 +939,16 @@ html{
       text-transform: capitalize;
       text-align: center;
   }
+  .notification {
+    background-color: rgba(255, 30, 0, 0.7);
+    border: 1px solid;
+    border-radius: 5px;
+    margin-left: 3px;
+    margin-right: 3px;
+  }
+
+  .notification h3 {
+    font-size: 18px;
+    color: white;
+    text-align: center;
+  }
